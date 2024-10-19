@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Performing Student Recognition System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .student-list {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .student-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .student-list li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .student-list li:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Best Performing Student Recognition System</h1>
+    
+    <form id="studentForm">
+        <input type="text" id="name" placeholder="Student Name" required>
+        <input type="number" id="score" placeholder="Score" required>
+        <button type="submit">Add Student</button>
+    </form>
+    
+    <div class="student-list">
+        <h2>Student List</h2>
+        <ul id="studentList">
+            <li>John Doe: 95</li>
+            <li>Jane Smith: 90</li>
+            <li>Michael Brown: 88</li>
+            <li>Emily Davis: 92</li>
+            <li>Sarah Johnson: 87</li>
+            <!-- Sample student data -->
+        </ul>
+    </div>
+
+    <script>
+        // Placeholder for JavaScript functionality (e.g., fetching and displaying students)
+    </script>
+</body>
+</html>
